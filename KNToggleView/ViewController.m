@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KNToggleView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:[[KNToggleView alloc] initWithFrame:CGRectMake(100, 200, 70, 25)]];
 }
 
 
